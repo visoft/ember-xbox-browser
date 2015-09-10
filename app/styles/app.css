@@ -1,0 +1,21 @@
+body > .ember-view > .ember-view {
+  margin-top: 20px;
+}
+
+.card {
+  margin: 1rem;
+}
+
+.card-header {
+  background-color: #206500;
+  color: white;
+}
+
+.container > .nav-pills {
+  display: inline-block;
+  margin: 1rem 0;
+}
+
+.container > .nav-pills li {
+
+}

@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="row">
+  {{#each sortedCollection as |title|}}
+    <div class="col-sm-12 col-md-6 col col-lg-4 col-xl-3">
+      <div class="card">
+        <div class="card-header">
+          {{title.name}}
+        </div>
+        <div class="card-block">
+          <p class="card-text"><strong>Last Played: </strong> {{moment-from-now title.lastPlayed}}</p>
+          <p class="card-text"><strong>Gamerscore: </strong>{{title.currentGamerscore}} / {{title.totalGamerscore}}</p>
+        </div>
+        <div class="card-footer text-muted">
+          <progress class="progress progress-success" value="{{title.currentAchievements}}" max="{{title.totalAchievements}}"></progress>
+        </div>
+      </div>
+    </div>
+    {{/each}}
+  </div>
+</div>
+
+
+
