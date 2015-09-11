@@ -19,3 +19,14 @@ body > .ember-view > .ember-view {
 body > .ember-view > .container {
   margin-top: 20px;
 }
+
+.relative {
+  postion: relative;
+}
+
+.center-h-v {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

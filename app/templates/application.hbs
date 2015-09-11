@@ -1,13 +1,10 @@
 <nav class="navbar navbar-dark bg-inverse">
-  <a class="navbar-brand" href="#"> XBox Browser</a>
+  {{#link-to 'index' class="navbar-brand"}}XBox Browser{{/link-to}}
   <button class="navbar-toggler hidden-sm-up pull-right" type="button" data-toggle="collapse" data-target="#main-nav">
     &#9776;
   </button>
   <div class="collapse navbar-toggleable-xs" id="main-nav">
-    <form class="form-inline navbar-form pull-right">
-      <input class="form-control" type="text" placeholder="XBox User">
-      <button class="btn btn-success-outline" type="submit">Search</button>
-    </form>
+  {{search-form redirect="redirectToRoute"}}
   </div>
 </nav>
 

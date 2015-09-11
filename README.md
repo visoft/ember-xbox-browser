@@ -1,7 +1,16 @@
-# Xbox-browser
+# Xbox-Browser
 
 This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+
+This is a quick little demo of using Ember 2.0 and Ember Data with the (unofficial) XBoxAPI.
+
+To get it to work, you'll need an API key from [XBoxAPI](https://xboxapi.com).
+
+Once you have that, add an entry to your `.bash_profile` or `.bashrc` file with your key like so:
+
+    export XBOX_API_KEY=<Your API Key>
+
+The app should pick this up automatically when you run it providing you have Node.js installed.
 
 ## Prerequisites
 
@@ -24,10 +33,6 @@ You will need the following things properly installed on your computer.
 
 * `ember server`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
-
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
 
 ### Running Tests
 
