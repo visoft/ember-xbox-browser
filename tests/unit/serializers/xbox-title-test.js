@@ -1,6 +1,6 @@
 import { moduleForModel, test } from 'ember-qunit';
 
-moduleForModel('title', 'Unit | Serializer | title', {
+moduleForModel('xbox-title', 'Unit | Serializer | xbox-title', {
   // Specify the other units that are required for this test.
   needs: ['serializer:title']
 });

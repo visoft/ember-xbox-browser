@@ -1,6 +1,6 @@
 import { moduleFor, test } from 'ember-qunit';
 
-moduleFor('adapter:title', 'Unit | Adapter | title', {
+moduleFor('adapter:xbox-title', 'Unit | Adapter | xbox-title', {
   // Specify the other units that are required for this test.
   // needs: ['serializer:foo']
 });
