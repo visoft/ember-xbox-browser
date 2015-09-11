@@ -20,6 +20,14 @@ module.exports = function(environment) {
     }
   }
 
+  ENV.contentSecurityPolicy = {
+    'style-src': "'self' https://cdn.rawgit.com",
+    'script-src': "'self' 'unsafe-eval' https://cdn.rawgit.com",
+    'connect-src': "'self' https://xboxapi.com",
+    'img-src': "'self' http://images-eds.xboxlive.com"
+
+  };
+
 
   if (environment === 'development') {
     // ENV.APP.LOG_RESOLVER = true;

@@ -11,6 +11,7 @@ export default Ember.Route.extend({
       }
       else {
         return Ember.RSVP.hash({
+          profile: this.store.find('profile', this.get('session.xuid')),
           xbox360Titles: this.store.query('title', { xuid: this.get('session.xuid') })
         });
       }

@@ -13,6 +13,19 @@
 
   <div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="profile">
+      <div class="card">
+        <div class="card-header">
+          {{model.profile.Gamertag}}
+        </div>
+        <div class="card-block">
+          <img src="{{model.profile.GameDisplayPicRaw}}" />
+          <p class="card-text"><strong>Account Tier: </strong>{{model.profile.AccountTier}}</p>
+          <p class="card-text"><strong>Gamerscore: </strong>{{model.profile.Gamerscore}}</p>
+          <p class="card-text"><strong>Tenure Level: </strong>{{model.profile.TenureLevel}}</p>
+        </div>
+      </div>
+
+
     </div>
     <div role="tabpanel" class="tab-pane" id="xbox-360">
       {{xbox-title titles=model.xbox360Titles}}
