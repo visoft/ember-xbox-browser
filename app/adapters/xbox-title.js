@@ -8,7 +8,7 @@ export default ApplicationAdapter.extend({
       url.push(host);
     }
     url.push(query.xuid);
-    url.push('xbox360games')
+    url.push('xbox360games');
     return url.join('/');
   }
 });

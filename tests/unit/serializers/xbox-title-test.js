@@ -2,7 +2,7 @@ import { moduleForModel, test } from 'ember-qunit';
 
 moduleForModel('xbox-title', 'Unit | Serializer | xbox-title', {
   // Specify the other units that are required for this test.
-  needs: ['serializer:title']
+  needs: ['serializer:xbox-title']
 });
 
 // Replace this with your real tests.
