@@ -6,7 +6,7 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-  this.route('gamer');
+  this.route('gamer', { path: 'gamer/:gamer_tag' });
 });
 
 export default Router;

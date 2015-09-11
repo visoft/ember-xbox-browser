@@ -16,6 +16,6 @@ body > .ember-view > .ember-view {
   margin: 1rem 0;
 }
 
-.container > .nav-pills li {
-
+body > .ember-view > .container {
+  margin-top: 20px;
 }

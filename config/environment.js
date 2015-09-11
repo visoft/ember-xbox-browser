@@ -6,6 +6,7 @@ module.exports = function(environment) {
     environment: environment,
     baseURL: '/',
     locationType: 'auto',
+    xboxApiKey: process.env.XBOX_API_KEY,
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
@@ -17,7 +18,8 @@ module.exports = function(environment) {
       // Here you can pass flags/options to your application instance
       // when it is created
     }
-  };
+  }
+
 
   if (environment === 'development') {
     // ENV.APP.LOG_RESOLVER = true;
